@@ -16,9 +16,9 @@ print("B")
 fig2, ax2 = plt.subplots()
 ax2.plot([0,1], [1,0])</py-cell>
 
-Figures creates from other plotting libraries based on matplotlib (e.g. seaborn, pandas) will also be rendered:
+Figures creates from other plotting libraries based on matplotlib (e.g. pandas, seaborn) will also be rendered:
 
-<py-cell>import seaborn as sns
+<py-cell>
 import pandas as pd
 import matplotlib.pyplot as plt 
 df = pd.DataFrame({
@@ -26,6 +26,11 @@ df = pd.DataFrame({
     'y': [5,4,3,2,1]
 })
 df.plot(x='x', y='y', kind='line')
-sns.scatterplot(data=df, x='x', y='y')</py-cell>
+</py-cell>
+
+<py-cell>import seaborn as sns
+ x = [1,2,3,4,5]
+y = [5,,0, 5, 0, 5]
+sns.scatterplot(x=x, y=y)</py-cell>
 
 
