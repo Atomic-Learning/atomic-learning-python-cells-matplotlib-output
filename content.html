@@ -1,2 +1,31 @@
+Figures created from a matplotlib plot will be rendered below the code cell:
+
 <py-cell>import matplotlib.pyplot as plt
 plt.plot([0,1], [1,0])</py-cell>
+
+There is no need to use <code>plt.show()</code>. If multiple figures are created, they will all be rendered:
+
+<py-cell>import matplotlib.pyplot as plt
+print("A")
+
+fig1, ax1 = plt.subplots()
+ax1.plot([0,1], [1,0])
+
+print("B")
+
+fig2, ax2 = plt.subplots()
+ax2.plot([0,1], [1,0])</py-cell>
+
+Figures creates from other plotting libraries based on matplotlib (e.g. seaborn, pandas) will also be rendered:
+
+<py-cell>import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt 
+df = pd.DataFrame({
+    'x': [1,2,3,4,5],
+    'y': [5,4,3,2,1]
+})
+df.plot(x='x', y='y', kind='line')
+sns.scatterplot(data=df, x='x', y='y')</py-cell>
+
+
