@@ -1,21 +1,20 @@
 {
-    "title": "",
-    "slug": "",
+    "title": "Atomic Learning: Python Cells Matplotlib Output",
+    "slug": "atomic-learning-python-cells-matplotlib-output",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "atomic-learning",
+        "python"
     ],
     "duration": 0,
     "prerequisites": [
-        "",
-        ""
+        "atomic-learning-python-cells-importing-packages"
     ],
     "related": [
-        "",
-        ""
+    ],
+    "python_packages": [
+        "matplotlib"
     ]
 }
