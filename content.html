@@ -1,10 +1,13 @@
-Figures created from a matplotlib plot will be rendered below the code cell:
+<p>Figures created from a matplotlib plot will be rendered below the code cell:</p>
 
 <py-cell>import matplotlib.pyplot as plt
 plt.plot([0,1], [1,0])</py-cell>
 
-There is no need to use <code>plt.show()</code>. If multiple figures are created, they will all be rendered:
+<p>There is no need to use <code>plt.show()</code>. </p>
 
+<h2>Multiple Figures</h2>
+
+<p>f multiple figures are created, they will all be rendered:</p>
 <py-cell>import matplotlib.pyplot as plt
 fig1, ax1 = plt.subplots()
 ax1.plot([0,1], [1,0])
@@ -12,7 +15,7 @@ ax1.plot([0,1], [1,0])
 fig2, ax2 = plt.subplots()
 ax2.plot([0,1], [1,0])</py-cell>
 
-Figures creates from other plotting libraries based on matplotlib (e.g. pandas, seaborn) will also be rendered:
+<p>Figures created from other plotting libraries based on matplotlib (e.g. pandas, seaborn) will also be rendered:</p>
 
 <py-cell>
 import pandas as pd
@@ -25,7 +28,7 @@ df.plot(x='x', y='y', kind='line')
 </py-cell>
 
 <py-cell>import seaborn as sns
- x = [1,2,3,4,5]
+x = [1,2,3,4,5]
 y = [5,,0, 5, 0, 5]
 sns.scatterplot(x=x, y=y)</py-cell>
 
