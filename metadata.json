@@ -15,8 +15,6 @@
     "related": [
     ],
     "python_packages": [
-        "matplotlib",
-        "pandas",
-        "seaborn"
+        "matplotlib"
     ]
 }

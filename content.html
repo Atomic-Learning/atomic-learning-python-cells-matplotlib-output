@@ -1,4 +1,4 @@
-<p>Figures created from a matplotlib plot will be rendered below the code cell:</p>
+<p>Figures created from a <code>matplotlib</code> plot will be rendered below the code cell:</p>
 
 <py-cell>import matplotlib.pyplot as plt
 plt.plot([0,1], [1,0])</py-cell>
@@ -15,27 +15,8 @@ ax1.plot([0,1], [1,0])
 fig2, ax2 = plt.subplots()
 ax2.plot([0,1], [1,0])</py-cell>
 
-<h2>Related Libraries</h2>
-
-<p>Figures created from other plotting libraries based on matplotlib (e.g. pandas, seaborn) will also be rendered:</p>
-
-<py-cell>
-import pandas as pd
-import matplotlib.pyplot as plt 
-df = pd.DataFrame({
-    'x': [1,2,3,4,5],
-    'y': [5,4,3,2,1]
-})
-df.plot(x='x', y='y', kind='line')
-</py-cell>
-
-<py-cell>import seaborn as sns
-x = [1,2,3,4,5]
-y = [5,,0, 5, 0, 5]
-sns.scatterplot(x=x, y=y)</py-cell>
-
 <h2>Reminder</h2>
 
-<p>In order for the packages to be available in the code cells, they must be included in the <code>metadata.json</code>
+<p>In order for <code>matplotlib</code> to be available in the code cells, they must be included in the <code>metadata.json</code>
 file.</p>
 
