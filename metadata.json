@@ -1,6 +1,7 @@
 {
     "title": "Atomic Learning: Python Cells Matplotlib Output",
     "slug": "atomic-learning-python-cells-matplotlib-output",
+    "description": "A description of how matplotlib output is displayed below Python code cells in the Atomic Learning platform.",
     "authors": [
         "chris-cooling"
     ],
