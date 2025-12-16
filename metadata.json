@@ -16,7 +16,8 @@
     ],
     "related": [
         "matplotlib-plot",
-        "matplotlib-subplots"
+        "matplotlib-subplots",
+        "matplotlib-plt-show"
     ],
     "python_packages": [
         "matplotlib"
