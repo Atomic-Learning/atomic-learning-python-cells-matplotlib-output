@@ -10,11 +10,12 @@
     ],
     "duration": 2,
     "prerequisites": [
-        "matplotlib-plot",
-        "matplotlib-subplots",
+        "python-matplotlib-introduction",
         "atomic-learning-python-cells-importing-packages"
     ],
     "related": [
+        "matplotlib-plot",
+        "matplotlib-subplots"
     ],
     "python_packages": [
         "matplotlib"
