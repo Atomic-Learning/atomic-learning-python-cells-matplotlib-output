@@ -12,7 +12,8 @@
     "duration": 2,
     "prerequisites": [
         "matplotlib-introduction",
-        "atomic-learning-python-cells-importing-packages"
+        "atomic-learning-python-cells-importing-packages",
+        "python-lists-introduction"
     ],
     "related": [
         "matplotlib-plot",
